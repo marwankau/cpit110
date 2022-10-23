@@ -2,7 +2,7 @@ import random
 
 target = random.randint(0, 100)
 
-guess = 101
+guess = -1
 
 while guess != target:
     guess = eval(input("Enter your guess: "))
