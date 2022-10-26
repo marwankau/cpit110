@@ -1,7 +1,7 @@
-dollar = eval(input("Enter the amount in dollars: "))
+sar = eval(input("Enter the amount in SAR: "))
 
 # 1 $US = 3.75 SAR
 
-sar = dollar * 3.75
+dollar = sar / 3.75
 
-print(dollar, "$US equals", sar, "SAR")
+print(sar, "SAR equals", dollar, "$US")
